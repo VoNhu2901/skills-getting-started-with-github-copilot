@@ -142,3 +142,39 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-list {
+  margin-top: 8px;
+  margin-left: 0;
+  padding-left: 0; /* hide default bullets */
+  list-style: none; /* hide bullets */
+  color: #333;
+}
+
+.participant-item {
+  padding: 6px 0;
+  font-size: 0.95rem;
+  color: #1a237e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.remove-btn:hover {
+  background-color: rgba(198, 40, 40, 0.08);
+}
+
+.email-text {
+  margin-right: 8px;
+  word-break: break-all;
+}
